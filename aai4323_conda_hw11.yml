@@ -1,4 +1,4 @@
-name: aai4323_hw10
+name: aai4323_hw11
 channels:
   - conda-forge
   - defaults
@@ -27,6 +27,7 @@ dependencies:
   # ML and Statistics
   - scikit-learn
   - statsmodels
+  - imbalanced-learn
 
   # Utilities
   - tqdm
